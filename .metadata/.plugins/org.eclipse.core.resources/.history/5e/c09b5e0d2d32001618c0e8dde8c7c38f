@@ -22,7 +22,7 @@ def copyFile() :
 fcpDlg = QDialog()
 
 cpBtn = QPushButton( fcpDlg )
-cpBtn.setText( "Download" )
+cpBtn.setText( "&Copy" )
 cpBtn.clicked.connect( copyFile )
 cpBtn.setFixedWidth( 72 )
 
