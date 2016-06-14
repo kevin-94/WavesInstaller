@@ -1,0 +1,19 @@
+import sys
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+
+
+def MessageBox(a,b):
+    app= QApplication(sys.argv)
+    fenetre= QWidget()
+    msg= QMessageBox()
+    msg.setIcon(QMessageBox.b)
+    msg.setText(a)
+    msg.setWindowTitle("Waves")
+    msg.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
+    msg.exec_()
+
+
+   
+if __name__ == '__main__':
+    MessageBox()
