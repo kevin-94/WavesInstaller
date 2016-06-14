@@ -8,11 +8,4 @@ def window(a,b,c):
     
     fenetre.setGeometry(400,a,b,c)
     fenetre.setWindowTitle("Waves")
-    fenetre.show()
-    sys.exit(app.exec_())
-    
-
-    
-if __name__ == '__main__':
-    window(150,600,400)
     
